@@ -1,0 +1,32 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  margin-top: 30px;
+}
+
+nav {
+  padding: 10px 0;
+}
+
+.navlist {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.navlist li:not(:last-child) {
+  padding: 0 20px;
+}
+
+.navlist li.active {
+  font-weight: bold;
+  color: #000000;
+}
+
+.navlist li {
+  color: #1f1534;
+}
