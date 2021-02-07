@@ -330,6 +330,10 @@ nav {
   font-weight: 500;
   font-size: 21px;
   line-height: 32px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .article-txt-box p {
